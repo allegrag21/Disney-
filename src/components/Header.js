@@ -69,8 +69,7 @@ a {
         font-size: 13px;
         letter-spacing: 1.42px;
         position: relative;
-        margin: 13px 0px 13px 8px;
-        padding: 2px
+       
 
         &:after {
             content: "";
