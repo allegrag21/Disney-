@@ -16,25 +16,50 @@ const ImgSlider = (props) => {
     <Carousel {...settings}>
       <Wrap>
         <a>
-          <img src="/images/slider-badging.jpg" alt="" />
+          <img src="/images/simsonsshot.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-scale.jpg" alt="" />
+          <img src="/images/ahosoka.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-badag.jpg" alt="" />
+          <img src="/images/guardians.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-scales.jpg" alt="" />
+          <img src="/images/freakyfriday.png" alt="" />
+        </a>
+      </Wrap>
+      <Wrap>
+        <a>
+          <img src="/images/wonderyears.png" alt="" />
+        </a>
+      </Wrap>
+      <Wrap>
+        <a>
+          <img src="/images/highschool.png" alt="" />
+        </a>
+      </Wrap>
+      <Wrap>
+        <a>
+          <img src="/images/mermaid.png" alt="" />
+        </a>
+      </Wrap>
+      <Wrap>
+        <a>
+          <img src="/images/ahosoka.png" alt="" />
+        </a>
+      </Wrap>
+      <Wrap>
+        <a>
+          <img src="/images/slumber.png" alt="" />
         </a>
       </Wrap>
     </Carousel>
@@ -99,6 +124,12 @@ const Wrap = styled.div`
       height: 100%;
     }
 
+    overlay-image {
+      position: absolute;
+      top: 0;
+      opacity: 0.7;
+
+    }
     &:hover {
       padding: 0;
       border: 4px solid rgba(249, 249, 249, 0.8);

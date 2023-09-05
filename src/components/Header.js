@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 function Header() {
@@ -31,6 +30,7 @@ function Header() {
                 <span>SERIES</span>
             </a>
         </NavMenu>
+        <p class="mb-1">lura!</p>
         <UserImg src="/images/scale (7).png" />
     </Nav>
   )
